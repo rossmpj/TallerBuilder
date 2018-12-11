@@ -9,7 +9,7 @@ package emsamablajecomputadoras.creacional;
  *
  * @author Palacios
  */
-public class Computador {
+public class Computer {
     private int ram;
     private String tipoRam;
     private SistemaOperativo os;
@@ -20,7 +20,7 @@ public class Computador {
     private String modelo;
     private boolean coolerExterno;
 
-    public Computador(int ram, SistemaOperativo os, int almacenamiento, Mainboard placa, String marca, String modelo) {
+    public Computer(int ram, SistemaOperativo os, int almacenamiento, Mainboard placa, String marca, String modelo) {
         this.ram = ram;
         this.os = os;
         this.almacenamiento = almacenamiento;
@@ -29,7 +29,7 @@ public class Computador {
         this.modelo = modelo;
     }
 
-    public Computador() {
+    public Computer() {
     }
     
     

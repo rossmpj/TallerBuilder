@@ -17,10 +17,10 @@ public class PrincipalComputadoras {
 	public static void main(String[] args) {
 		// Necesito ensamblar 2 computadoras
 		// AsusROGE
-		Computador roge = new Computador(/*todos los atributos*/);
+		Computer roge = new Computer(/*todos los atributos*/);
 		
 		// AsusZenbook
-		Computador zenbook = new Computador(/*todos los atributos*/);
+		Computer zenbook = new Computer(/*todos los atributos*/);
 		
 		//Mostrar las caracteristicas de ambas computadoras 
 		roge.toString();
